@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lekton:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="custom-shape-divider-bottom-1683001233">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <nav class="nav--bar">
+        <h3 class="logo">Portfolio</h3>
+        <div class="nav--menu">
+          <div class="nav--menu-cont">
+            <ul class="nav--menu-items">
+              <li class="menu--item">
+                <a class="menu--link" href="#">Home</a>
+              </li>
+              <li class="menu--item">
+                <a class="menu--link" href="#section--1">About me</a>
+              </li>
+              <li class="menu--item">
+                <a class="menu--link" href="#skills-scroll">Skills</a>
+              </li>
+              <li class="menu--item">
+                <a class="menu--link" href="#section--projects">Projects</a>
+              </li>
+
+              <li class="menu--item">
+                <a onclick="togglePopup()" class="menu--link contact" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="hero--main">
+        <div class="img---title">
+          <h1 class="hero--title-top">Hi, I'm Dennis.</h1>
+          <img class="img--hero-1" src="img/code copy.png" alt="" />
+        </div>
+        <h2 class="hero--title-bot">A Front-End Web Developer.</h2>
+        <!-- <p class="sub--text"></p> -->
+        <div class="link--img-container">
+          <a href="https://github.com/dpapadat94" target="_blank">
+            <img class="link--img" src="img/github-lg.png" alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dennis-papadatos-dev94/"
+            target="_blank"
+          >
+            <img class="link--img" src="img/linkedin.png" alt="" />
+          </a>
+          <a href="Dennis papadatos Resume  copy.pdf" target="_blank">
+            <img class="link--img" src="img/profile.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <a id="my--work" class="menu--link my--work" href="#section--2"
+            >See my work</a
+          >
+          <a
+            class="menu--link my--work"
+            target="_blank"
+            href="Dennis papadatos Resume  copy.pdf"
+            >My Resume</a
+          >
+        </div>
+      </div>
+    </header>
+    <section id="section--1" class="section--1">
+      <div class="about--me">
+        <p class="sub--header-2">About Me</p>
+        <div class="about--me-card">
+          <img src="img/web-development.png" alt="" />
+          <div id="skills-scroll"></div>
+          <p>
+            Hello, my name is Dennis Papadatos and I'm a front-end web developer
+            based out of Charlotte, North Carolina. I create modern and
+            resposive websites and and web applications. Familiar with all
+            stages of the web development cycle.
+          </p>
+        </div>
+      </div>
+
+      <img class="skills--img" src="img/app-development.png" alt="" />
+      <!-- <div class="skills--container"> -->
+      <p class="sub--header">
+        Programming Skills <span class="highlight">and Tools</span>
+      </p>
+      <div class="skill-items">
+        <div class="skills--item">
+          <img src="img/html-5.png" alt="" />
+          <p>HTML 5</p>
+        </div>
+        <div class="skills--item">
+          <img src="img/css-3.png" alt="" />
+          <p>CSS 3</p>
+        </div>
+        <div class="skills--item">
+          <img src="img/js.png" alt="" />
+          <p>JavaScript</p>
+        </div>
+        <div class="skills--item">
+          <img src="img/react.png" alt="" />
+          <p>React</p>
+        </div>
+
+        <div class="skills--item">
+          <img src="img/git.png" alt="" />
+          <p>Git</p>
+        </div>
+        <div class="skills--item">
+          <img src="img/github-lg.png" alt="" />
+          <p>GitHub</p>
+        </div>
+        <div class="skills--item">
+          <img src="https://vitejs.dev/logo.svg" alt="" />
+          <p>Vite</p>
+        </div>
+        <div class="skills--item">
+          <img src="img/api.png" alt="" />
+          <p>API's</p>
+        </div>
+        <div class="skills--item">
+          <img src="img/visual-studio.png" alt="" />
+          <p>VS Code</p>
+        </div>
+      </div>
+    </section>
+    <section id="section--projects" class="section--2">
+      <p class="project--header">
+        <span class="highlight--3">My Proje</span>cts
+      </p>
+
+      <div class="project--card">
+        <img id="pj1" src="img/shoe2.png" alt="" />
+        <div class="project--right">
+          <p class="project--number">Project 1</p>
+          <p class="project--names">Shoe Shop</p>
+          <p class="sub--text-p">
+            Shoe Shop is a responsive E-commerce demo webiste. Built with HTML,
+            CSS and JavaScrit this website allows you to browse products,
+            add/remove them from your cart and simulate a checkout process.
+          </p>
+          <div class="made--with">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Netlify</p>
+          </div>
+          <a
+            class="live--demo"
+            href="https://shoeshopdemo.netlify.app/"
+            target="_blank"
+            >Live Demo <img src="img/share (1).png" alt=""
+          /></a>
+          <a
+            class="live--demo"
+            href="https://github.com/dpapadat94/ShoeShop"
+            target="_blank"
+            >Code<img src="img/github-lg.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="project--card-op">
+        <div class="project--left">
+          <p class="project--number">Project 2</p>
+          <p class="project--names">Best Recipes App</p>
+          <p class="sub--text-p">
+            Best Recipes is a fully responsive web application that allows you
+            to search a database of thousands of recipes and provides
+            step-by-step instructions for cooking. All data comes from the
+            Spoonacular API.
+          </p>
+          <div class="made--with-op">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>React</p>
+            <p>JavaScript</p>
+            <p>Vite</p>
+            <p>API</p>
+          </div>
+          <a
+            class="live--demo-op"
+            href="https://mybestrecipes.netlify.app/"
+            target="_blank"
+            >Live Demo <img src="img/share (1).png" alt=""
+          /></a>
+          <a
+            class="live--demo-op"
+            href="https://github.com/dpapadat94/BestRecipes"
+            target="_blank"
+            >Code<img src="img/github-lg.png" alt=""
+          /></a>
+        </div>
+        <img id="pj2" src="img/recipespj.png" alt="" />
+      </div>
+      <div class="project--card">
+        <img id="pj3" src="img/worlde.png" alt="" />
+        <div class="project--right">
+          <p class="project--number">Project 3</p>
+          <p class="project--names">Wordle Clone</p>
+          <p class="sub--text-p">
+            Wordle Clone is a recreation of the popular wordle web game. Built
+            in react this project is a fully functional and playable demo.
+          </p>
+          <div class="made--with">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>React</p>
+            <p>JavaScript</p>
+            <p>Vite</p>
+          </div>
+          <a
+            class="live--demo"
+            href="https://thewordleclone.netlify.app/"
+            target="_blank"
+            >Live Demo <img src="img/share (1).png" alt=""
+          /></a>
+          <a
+            target="_blank"
+            class="live--demo"
+            href="https://github.com/dpapadat94/Wordle-clone"
+            >Code<img src="img/github-lg.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="project--card-op">
+        <div class="project--left">
+          <p class="project--number">Project 4</p>
+          <p class="project--names">Weather APP</p>
+          <p class="sub--text-p">
+            The Weather App is a fully responsive web application that allows
+            you to search for up to the minute weather forcasts for any city in
+            the world. Created using the open weather API
+          </p>
+          <div class="made--with-op">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Vite</p>
+            <p>API</p>
+          </div>
+          <a
+            class="live--demo-op"
+            href="https://proweatherapp.netlify.app/"
+            target="_blank"
+            >Live Demo <img src="img/share (1).png" alt=""
+          /></a>
+          <a
+            target="_blank"
+            class="live--demo-op"
+            href="https://github.com/dpapadat94/Weather-App"
+            >Code<img src="img/github-lg.png" alt=""
+          /></a>
+        </div>
+        <img id="pj4" src="img/weather.png" alt="" />
+      </div>
+      <div class="project--card">
+        <img id="pj5" src="img/port.png" alt="" />
+        <div class="project--right">
+          <p class="project--number">Project 5</p>
+          <p class="project--names">Portfolio Website</p>
+          <p class="sub--text-p">
+            This portfolio is a fully responsive website build with HTML, CSS
+            and JavaScript.
+          </p>
+          <div class="made--with">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+          </div>
+          <a class="live--demo" href="#"
+            >Live Demo <img src="img/share (1).png" alt=""
+          /></a>
+          <a class="live--demo" href="#"
+            >Code<img src="img/github-lg.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <img id="bottom-link-1" src="img/github-lg.png" alt="" />
+      <img id="bottom-link-2" src="img/linkedin.png" alt="" />
+      <img id="bottom-link-3" src="img/profile.png" alt="" />
+    </footer>
+    <!-- //////// -->
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1 class="popup-title">Get in touch</h1>
+        <div class="popup-info">
+          <div class="info-group">
+            <p class="info-title">Email</p>
+            <p class="info-details">dennis.papadatos94@gmail.com</p>
+          </div>
+          <div class="info-group">
+            <p class="info-title">Phone</p>
+            <p class="info-details">(704)-960-8535</p>
+          </div>
+          <div class="info-group">
+            <a
+              href="https://www.linkedin.com/in/dennis-papadatos-Dev94/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="info-title2"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
