@@ -57,4 +57,4 @@ projectLinks(
   bottomLink2,
   "https://www.linkedin.com/in/dennis-papadatos-dev94/"
 );
-projectLinks(bottomLink3, "Dennis papadatos Resume  copy.pdf");
+projectLinks(bottomLink3, "Dennis P Resume .pdf");
