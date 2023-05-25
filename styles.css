@@ -24,22 +24,6 @@ body {
   padding: 0rem 5.5rem;
   width: 100%;
   z-index: 1;
-  /* background-image: linear-gradient(
-    to left,
-    #062e52,
-    #042949,
-    #042440,
-    #042037,
-    #041b2e,
-    #04192a,
-    #041627,
-    #031423,
-    #031423,
-    #031423,
-    #031423,
-    #031423
-  ); */
-
   position: relative;
   background-color: #000;
 }
@@ -96,7 +80,6 @@ body {
   border-bottom: 0.13rem solid #00e7ff;
 }
 .contact {
-  /* color: #21e6c1; */
   color: #f3f3f3;
   padding: 0.6rem 1rem;
   border: 0.1rem solid #00e7ff;
@@ -105,7 +88,7 @@ body {
 .hero--main {
   line-height: 1.2;
   display: flex;
-  /* text-align: center; */
+
   flex-direction: column;
   width: 70%;
 
@@ -125,7 +108,6 @@ body {
   margin-bottom: 2rem;
 }
 .my--work {
-  /* border: 0.13rem solid #21e6c1; */
   border: 0.13rem solid #00e7ff;
   padding: 0.7rem 3rem 0.7rem 3rem;
   width: 10rem;
@@ -206,11 +188,9 @@ body {
 .section--1 {
   padding: 2rem 5.5rem 2rem 5.5rem;
 
-  /* width: 100%;
-  height: 100vh; */
   display: flex;
   flex-direction: column;
-  /* background-color: #f3f3f3; */
+
   background: linear-gradient(to bottom, #f3f3f3 30rem, #222831 30rem);
 
   text-align: center;
@@ -227,12 +207,6 @@ body {
   font-weight: 500;
   color: #0096ff;
 }
-/* .skills--container {
-  display: flex;
-  width: 90%;
-  justify-content: center;
-  margin: 0 auto 0 auto;
-} */
 
 .skills--item {
   font-size: 1rem;
@@ -247,7 +221,7 @@ body {
   align-self: center;
 }
 .skill-items {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -304,7 +278,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  /* background-color: #222831; */
+
   background-color: #f3f3f3;
   align-items: center;
   justify-content: space-around;
@@ -396,7 +370,7 @@ body {
   justify-content: end;
   gap: 2rem;
   margin-top: 1rem;
-  /* color: #0096ff; */
+
   color: #00e7ff;
   font-size: 1rem;
   font-family: lekton;
@@ -408,7 +382,7 @@ body {
   justify-content: start;
   gap: 2rem;
   margin-top: 1rem;
-  /* color: #0096ff; */
+
   color: #00e7ff;
   font-size: 1rem;
   font-family: lekton;
